@@ -1,0 +1,78 @@
+/***** EASYSTREAM HEADER *****/
+.Start-header {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 350px;
+
+    align-items: center;
+    text-align: center;
+
+    color: #EF824F;
+}
+
+/****** NAVBAR *******/
+nav {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: #395059;
+
+
+}
+
+
+/***** KONTAKT NAV ******/
+#kontakt-nav {
+    position: absolute;
+    left: 25%;
+    top: 5%;
+   
+
+}
+
+#produkter-nav {
+    position: absolute;
+    left: 40%;
+    top: 5%;
+
+}
+
+#hjelp-nav {
+    position: absolute;
+    left: 55%;
+    top: 5%;
+
+}
+
+#nyhet-nav {
+    position: absolute;
+    left: 70%;
+    top: 5%;
+
+}
+
+.kom-igang-btn {
+    position: absolute;
+    left: 40.31%;
+    right: 40.39%;
+    top: 85.1%;
+    bottom: 6.85%;
+    font-size: 17px;
+
+    background: #EF824F;
+    border-radius: 46px;
+}
+
+/****  4 BIDLENE ****/
+
+.bilderImg {
+    position: absolute;
+    top: 40%;
+    left: 5.5%;
+    width: 1300px;
+
+}

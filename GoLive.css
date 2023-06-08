@@ -1,0 +1,146 @@
+/********** Sendingstittel *********/
+.tittel {
+    position: absolute;
+    width: 258px;
+    height: 36px;
+    left: 32%;
+    top: 12%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #EF824F;
+
+}
+
+/**** TID  *****/
+
+#TidTxt {
+    position: absolute;
+    width: 74px;
+    height: 30px;
+    left: 59%;
+    top: 15%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+/****** BUTTON GO LIVE *******/
+#GoLive {
+    position: absolute;
+    width: 97px;
+    height: 45px;
+    left: 32%;
+    top: 65%;
+
+}
+
+
+/************** IMAGES ****************/
+
+.kameraImg {
+    position: absolute;
+    width: 350px;
+    height: 360px;
+    left: 3%;
+    top: 17%;
+
+}
+
+.skjermImg {
+    position: absolute;
+    width: 495px;
+    height: 331px;
+    left: 32%;
+    top: 21%;
+
+
+    border-radius: 7px;
+}
+
+.ikonerImg {
+    position: absolute;
+    width: 150px;
+    left: 43%;
+    top: 65%;
+
+}
+
+.manusImg {
+    position: absolute;
+    left: 72%;
+    top: 15%;
+    width: 320px;
+}
+
+.sendingsplanImg {
+    position: absolute;
+    width: 1200px;
+    left: 9%;
+    top: 80%;
+
+}
+
+.overlayImg {
+    position: absolute;
+    width: 150px;
+    left: 14%;
+    top: 3%;
+}
+
+
+/*************** SENDINGSPLAN *****************/
+
+.sendingsplan {
+    position: absolute;
+    left: 4%;
+    top: 73.8%;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+}
+
+/**** SCROLLABLE MANUS ****/
+
+.manus-title {
+    position: absolute;
+    left: 70%;
+    right: 4%;
+    top: 12%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #EF824F;
+}
+
+#ScrollableManusBox {
+
+    box-sizing: border-box;
+    position: absolute;
+    left: 70%;
+    right: 4%;
+    top: 22%;
+    font-size: 20px;
+    font-family: sans-serif;
+    background: white;
+
+}
