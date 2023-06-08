@@ -1,0 +1,102 @@
+@import "../../styling/styling.scss";
+
+.streaming-editor {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: var(--background-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+        height: auto;
+
+        &__description {
+            margin-bottom: 2rem;
+            width: 100%;
+
+            &__title {
+                font-size: 2.5rem;
+                margin-bottom: 2rem;
+                color: var(--white);
+                width: 100%;
+                text-align: center;
+            }
+
+            &__text {
+                color: var(--white);
+                font-family: sans-serif;
+                font-weight: 500;
+                font-size: 1rem;
+                text-align: center;
+                width: 100%;
+            }
+        }
+
+        &__logger {
+            width: 100%;
+            height: auto;
+            display: inline-flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: row;
+
+            &__left {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                flex-direction: column;
+                width: 50%;
+                flex: 2;
+                height: 25rem;
+                max-height: 25rem;
+            }
+    
+            &__right {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                flex-direction: column;
+                flex: 2;
+                border-radius: 1rem;
+                border: 2px solid var(--white);
+                height: 25rem;
+                max-height: 25rem;
+                padding: 0.5rem;
+                gap: 1rem;
+                box-sizing: border-box;
+                overflow-y: auto;
+            }
+        }
+
+        &__form {
+            margin-top: 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: auto;
+            gap: 2rem;
+        }
+
+        &__nav {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            width: 70%;
+            height: auto;
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+    }
+}

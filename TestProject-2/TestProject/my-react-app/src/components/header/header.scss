@@ -1,0 +1,39 @@
+@import "../../styling/styling.scss";
+
+.header {
+    width: 100%;
+    background-color: var(--background-2);
+    height: 5rem;
+    box-sizing: border-box;
+    display: inline-flex;
+
+    &__logo {
+        height: 3rem;
+        width: auto;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    &__account {
+        height: 3rem;
+        width: auto;
+        margin-right: 1rem;
+    }
+
+    &__account:hover {
+        opacity: 0.9;
+    }
+
+    &__left-nav {
+        width: 50%;
+        height: 100%;
+    }
+
+    &__right-nav {
+        display: inline-flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 50%;
+        height: 100%;
+    }
+}

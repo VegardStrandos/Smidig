@@ -1,0 +1,25 @@
+.log-card {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255 , 0.3);
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+
+    &__title {
+        color: var(--white);
+        margin-bottom: 0.5rem;
+    }
+
+    &__time {
+        color: var(--white);
+        font-size: 0.7rem;
+        opacity: 0.6;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,67 @@
+.button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    text-decoration: none;
+
+    &__white-sugar {
+        color: var(--accent);
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+
+    &__karl-gustav {
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+        background-color: var(--white);
+        font-family: sans-serif;
+        font-weight: 600;
+        width: 100%;
+        text-align: center;
+        border-radius: 999px;
+        color: var(--black);
+    }
+
+    &__karl-gustav:hover, :focus {
+        opacity: 0.8;
+        transition-duration: 0.34s;
+        transform: scale(1.05, 1.05);
+    }
+
+    &__whiteotangu {
+        padding: 1rem 2rem 1rem 2rem;
+        background-color: var(--white);
+        font-family: sans-serif;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 999px;
+    }
+
+    &__whiteotangu:hover, :focus {
+        opacity: 0.8;
+        transition-duration: 0.34s;
+        transform: scale(1.05, 1.05);
+    }
+
+    &__orangotangu {
+        padding: 1rem 2rem 1rem 2rem;
+        background-color: var(--accent);
+        font-family: sans-serif;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 999px;
+    }
+
+    &__orangotangu:hover, :focus {
+        opacity: 0.8;
+        transition-duration: 0.34s;
+        transform: scale(1.05, 1.05);
+    }
+}
+
+.button:hover *, :focus * {
+    cursor: pointer;
+}
