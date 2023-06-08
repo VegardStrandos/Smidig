@@ -1,0 +1,318 @@
+.logoImg {
+    position: absolute;
+    width: 236px;
+    height: 118px;
+    left: -50px;
+    top: -10px;
+}
+
+.profilImg {
+    position: absolute;
+    left: 90%;
+    top: 3.25%;
+    width: 5%;
+}
+
+
+
+
+.Header {
+    position: absolute;
+    width: 451px;
+    height: 75px;
+    left: 550px;
+    top: 46px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #EF824F;
+
+}
+
+body {
+    background-color: #1C3641;
+
+}
+
+/*lag en konto*/
+.Header2 {
+    position: absolute;
+    width: 126px;
+    height: 24px;
+    left: 580px;
+    top: 150px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    
+}
+
+/*brukernavn*/
+.username{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 490px;
+    top: 25%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
+
+/*box 1 */
+.box {
+position: absolute;
+left: 34%;
+top: 30%;
+padding: 8px;
+gap: 4px;
+
+width: 250px;
+height: 15px;
+
+border: 1px solid #FFFFFF;
+border-radius: 6px;
+
+/*skriv her*/
+width: 320px;
+height: 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: rgba(255, 255, 255, 0.37);
+
+}
+
+.Header3{
+    position: absolute;
+    width: 126px;
+    height: 24px;
+    left: 490px;
+    top: 36%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.box2{
+        position: absolute;
+        left: 34%;
+        top: 41%;
+        padding: 8px;
+        gap: 4px;
+        
+        width: 250px;
+        height: 15px;
+        
+        border: 1px solid #FFFFFF;
+        border-radius: 6px;
+        
+        /*skriv her*/
+        width: 320px;
+        height: 20px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        
+        color: rgba(255, 255, 255, 0.37);
+}
+.Header4{
+    position: absolute;
+    width: 126px;
+    height: 24px;
+    left: 490px;
+    top: 47%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+} 
+
+.box3{
+    position: absolute;
+    left: 34%;
+    top: 52%;
+    padding: 8px;
+    gap: 4px;
+    
+    width: 250px;
+    height: 15px;
+    
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    
+    /*skriv her*/
+    width: 320px;
+    height: 20px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    
+    color: rgba(255, 255, 255, 0.37);
+}
+.Header5{
+    position: absolute;
+    width: 126px;
+    height: 24px;
+    left: 490px;
+    top: 58%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+} 
+.box4{
+    position: absolute;
+    left: 34%;
+    top: 63%;
+    padding: 8px;
+    gap: 4px;
+    
+    width: 250px;
+    height: 15px;
+    
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    
+    /*skriv her*/
+    width: 320px;
+    height: 20px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    
+    color: rgba(255, 255, 255, 0.37);
+}
+.Header6{
+    position: absolute;
+    width: 126px;
+    height: 24px;
+    left: 490px;
+    top: 69%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+} 
+.box5{
+    position: absolute;
+    left: 34%;
+    top: 73%;
+    padding: 8px;
+    gap: 4px;
+    
+    width: 250px;
+    height: 15px;
+    
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    
+    /*skriv her*/
+    width: 320px;
+    height: 20px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    
+    color: rgba(255, 255, 255, 0.37);
+}
+
+.Header7{
+position: absolute;
+left: 78%;
+right: 8%;
+top: 90%;
+bottom: 3%;
+
+background: #EF824F;
+border-radius: 46px;
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-size: 20px;
+
+
+
+
+color: #1C3641;
+
+
+}
