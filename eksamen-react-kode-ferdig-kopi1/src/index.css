@@ -1,0 +1,33 @@
+
+:root {
+  --primary-dark: blue;
+  --primary-orange: orange;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family:sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1C3641
+}
+
+
+
+@media screen and (max-width: 940px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}

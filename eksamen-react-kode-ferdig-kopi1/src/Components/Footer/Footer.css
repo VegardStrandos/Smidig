@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.foot-buy {
+    display: flex;
+    
+    width: 30vw;
+    height: 5vh;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9vw;
+    margin-top: 5vh;
+    background-color: #11BD00;
+    color: #1C3641;
+}
+.foot-back {
+    display: flex;
+    
+    width: 30vw;
+    height: 5vh;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 9vw;
+    margin-top: 5vh;
+    background-color: #ED814F;
+    color: #1C3641;
+
+}
