@@ -113,7 +113,7 @@ line-height: 20px;
 color: rgba(255, 255, 255, 0.37);
 
 }
-
+/*Email*/
 .Header3{
     position: absolute;
     width: 126px;
@@ -159,6 +159,7 @@ color: rgba(255, 255, 255, 0.37);
         
         color: rgba(255, 255, 255, 0.37);
 }
+
 .Header4{
     position: absolute;
     width: 126px;

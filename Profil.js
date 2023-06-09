@@ -1,16 +1,16 @@
 import './Profil.css';
 import React from 'react';
 import logo from './logo.png';
-import profil from './profil.png';
+import person from './person.png';
 
 
 
 function Profil() {
 
     return (
-        <div>
+        <div> 
             <img className="logoImg" src={logo} alt="Vizrt Logo"></img>
-            <img className="profilImg" src={profil} alt="profil Logo"></img>
+            <img className="profilImg" src={person} alt="profil Logo"></img>
             <h1 className='Header'>Easystream</h1>
             <h2 className='Header2'>Lag en konto</h2>
             <h2 className='username'>Brukernavn</h2>
