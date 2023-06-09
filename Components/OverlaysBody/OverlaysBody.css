@@ -1,0 +1,117 @@
+
+
+.container-overlays-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75vh ; 
+    
+}
+.container-overlays {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    padding-right: 20px;
+    margin-left: 10px;
+}
+.overlays {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 0px 5px 0px 5px;  
+    border-radius: 20px;
+    color: #F4EEE0;
+    font-style:italic ;
+}
+
+.search-overlays-container {
+    grid-column-start:1;
+    grid-column-end: 4;
+    width: 22vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    margin-left: 1vw;
+    padding: 1vh 0vw 1vh 2vw;
+    border-radius: 20px;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    background-color: #F4EEE0;
+    font-style:italic;
+    font-size: small;
+}
+.search-icon{
+    margin-left:  6vw;
+    
+}
+
+
+
+.add-icon {
+    color: #ED814F;
+    width: 5vw;
+    height: 5vh;
+}
+
+.icons-camera {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.camera-add{ 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #F4EEE0;
+    border-radius: 10px;
+    margin: 4px;
+}
+.camera1{ 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #F4EEE0;
+    border-radius: 10px;
+    margin: 4px;
+    
+}
+.camera1{ 
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #F4EEE0;
+    border-radius: 10px;
+    margin: 4px;
+}
+.camera {
+width: 5vw;
+height: 5vh;
+
+}
+
+.preview {
+    display: grid;
+    grid-template-rows: 10vh 5vh 55vh;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+.preview-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F4EEE0;
+    
+}
+.preview-stream {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
