@@ -1,0 +1,26 @@
+.colors {
+    --accent: #EF824F;
+    --white: #fff;
+    --black: #000;
+    --background-1: #1b3641;
+    --background-2: #142b33;
+    --status-1: green;
+    --status-2: yellow;
+    --status-3: red;
+}
+
+.my-app {
+    background-color: var(--background-1);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    p, label, h1, h2, h3, h4, button, input {
+        font-family: sans-serif;
+        margin: 0;
+    }
+}

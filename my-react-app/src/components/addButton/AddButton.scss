@@ -1,0 +1,62 @@
+.add-button {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.15rem;
+    width: auto;
+    height: 2rem;
+
+    &__icon {
+        border-radius: 50%;
+        background-color: var(--white);
+        position: relative;
+        width: 2rem;
+        height: 2rem;
+
+        &__line {
+            position: absolute;
+            background-color: var(--black);
+            border-radius: 999px;
+
+            &--1 {
+                width: 50%;
+                height: 3px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            &--2 {
+                height: 50%;
+                width: 3px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+.add-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition-duration: 0.34s;
+    color: var(--accent);
+
+    &__icon {
+        background-color: var(--accent);
+    }
+}
+
+.add-button:hover *, .add-button:focus * {
+    cursor: pointer;
+    opacity: 0.8;
+    transition-duration: 0.34s;
+    color: var(--accent);
+    background-color: var(--accent);
+}
